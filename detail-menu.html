@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Menu</title>
+    <link rel="shortcut icon" href="./asset/img/icons8-kawaii-ice-cream-48.png" type="favicon/ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./asset/css/detail.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="px-lg-5 py-xl-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="my-nav collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav gap-5">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="add-menu.html" class="nav-item nav-link">Add Recipe</a>
+                <a href="search-menu.html" class="nav-item nav-link">Search Menu</a>
+              </div>
+              <div class="navbar-nav ms-auto">
+                <div class="profile">
+                  <img src="./asset/img/Ellipse 128.svg" alt="" class="rounded-circle" width="40" height="40" />
+                  <div class="desc ml-2">
+                    <p class="name">Ayudia</p>
+                    <a href="#" class="logout">Logout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero section -->
+      <section>
+        <div class="detail-hero">
+          <div class="profile-detail">
+            <img src="./asset/img/Ellipse 128.svg" alt="" />
+            <div class="desc-hero">
+              <p class="name">Ayudia</p>
+              <p class="recipes">10 Recipes</p>
+            </div>
+          </div>
+          <div class="hero-date">
+            <p>21 February 2023</p>
+            <p>20 Likes - 2 Comments</p>
+          </div>
+        </div>
+        <div class="hero-image">
+          <h1>Egg Sandwich</h1>
+          <img src="./asset/img/edit-hero.png" alt="food" />
+        </div>
+      </section>
+
+      <!-- hero section end -->
+
+      <!-- ingredients -->
+      <section>
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>- 2 Eggs</li>
+            <li>- 2 Tbsp mayonnaise</li>
+            <li>- 3 slices bread</li>
+            <li>- a little butter</li>
+            <li>- ⅓ carton of cress</li>
+            <li>- 2-3 slices of tomato or a lettuce leaf and a slice of ham or cheese</li>
+            <li>- crisps , to serve</li>
+          </ul>
+        </div>
+      </section>
+      <!-- ingredients end -->
+
+      <!-- comment start -->
+      <section>
+        <div class="comment">
+          <div class="likes">
+            <div class="bookmark">
+              <img src="./asset/img/bookmark.svg" alt="" />
+            </div>
+            <div class="like">
+              <img src="./asset/img/Vector.svg" alt="" />
+            </div>
+          </div>
+          <div class="wrapper-comment">
+            <div class="card-comment">
+              <div class="profile-comment">
+                <img src="./asset/img/Ellipse 128.svg" alt="" />
+                <div class="desc">
+                  <p class="name">Ayudia</p>
+                  <p class="recipes">10 Recipes</p>
+                </div>
+              </div>
+              <div class="comment-text">
+                <p>Wow, I just made this and it was delicious! Thanks for sharing!</p>
+              </div>
+            </div>
+            <div class="card-comment">
+              <div class="profile-comment">
+                <img src="./asset/img/Ellipse 128.svg" alt="" />
+                <div class="desc">
+                  <p class="name">Ayudia</p>
+                  <p class="recipes">20 Recipes</p>
+                </div>
+              </div>
+              <div class="comment-text">
+                <p>So simple and delicious!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- comment end -->
+
+      <!-- comment field -->
+      <section>
+        <div class="textarea">
+          <textarea placeholder="Your comment here!"></textarea>
+        </div>
+        <button type="button" class="btn-send">Send a comment</button>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <h1>Eat, Cook, Repeat</h1>
+          <p>Share your best recipe by uploading here !</p>
+        </div>
+
+        <div class="footer-nav">
+          <nav class="nav-list">
+            <ul>
+              <li><a href="#">Product </a></li>
+              <li><a href="#">Company </a></li>
+              <li><a href="#">Learn more </a></li>
+              <li><a href="#">Get in touch</a></li>
+              <li class="copyright"><p>&copyArkademy</p></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

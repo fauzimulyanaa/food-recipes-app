@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./asset/css/edit-menu.css" />
+  </head>
+  <body>
+    <div class="container-fluid m-auto">
+      <header class="px-lg-5 py-xl-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="my-nav collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav gap-5">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="add-menu.html" class="nav-item nav-link">Add Recipe</a>
+                <a href="profile.html" class="nav-item nav-link">Profile</a>
+              </div>
+              <div class="navbar-nav ms-auto">
+                <div class="profile">
+                  <img src="./asset/img/Ellipse 128.svg" alt="" class="rounded-circle" width="40" height="40" />
+                  <div class="desc ml-2">
+                    <p class="name">Ayudia</p>
+                    <a href="#" class="logout">Logout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section>
+        <div class="hero container">
+          <div class="change-photo">
+            <img src="./asset/img/edit-hero.png" alt="" />
+            <button type="button" class="btn-change">Change Photo</button>
+          </div>
+          <div class="add-file">
+            <div class="title">
+              <p>Egg Sanwich</p>
+            </div>
+            <div class="ingredients">
+              <p>
+                - 2 eggs<br />
+                - 2 tbsp mayonnaise<br />
+                - 3 slices bread<br />
+                - a little butter
+              </p>
+            </div>
+            <div class="category">
+              <p>Main Course</p>
+            </div>
+
+            <button type="submit" class="btn-submit">Update</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <h1>Eat, Cook, Repeat</h1>
+          <p>Share your best recipe by uploading here !</p>
+        </div>
+
+        <div class="footer-nav">
+          <nav class="nav-list">
+            <ul>
+              <li><a href="#">Product </a></li>
+              <li><a href="#">Company </a></li>
+              <li><a href="#">Learn more </a></li>
+              <li><a href="#">Get in touch</a></li>
+              <li class="copyright"><p>&copyArkademy</p></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

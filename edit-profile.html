@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./asset/css/detail-profile.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="px-lg-5 py-xl-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="my-nav collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav gap-5">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="add-menu.html" class="nav-item nav-link">Add Recipe</a>
+                <a href="profile.html" class="nav-item nav-link">Profile</a>
+              </div>
+              <div class="navbar-nav ms-auto">
+                <div class="profile">
+                  <img src="./asset/img/Ellipse 128.svg" alt="" class="rounded-circle" width="40" height="40" />
+                  <div class="desc ml-2">
+                    <p class="name">Ayudia</p>
+                    <a href="#" class="logout">Logout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="container-fluid">
+        <div class="wrapper d-flex container-md">
+          <div class="wrapper-img">
+            <img src="./asset/img/Ellipse 128.svg" alt="" />
+            <a class="my-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">Change Profile picture</a>
+          </div>
+          <div class="wrapper-form">
+            <form class="mt-4">
+              <div class="form-input mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Ayudia" id="name" />
+              </div>
+              <div class="form-input mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Ayudia@gmail.com" id="email" aria-describedby="emailHelp" />
+              </div>
+              <button type="submit" class="btn btn-warning text-white">Submit</button>
+              <br />
+              <p class="forgot">Change Password? <a href="register.html" class="forgot-link"> Click Here</a></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

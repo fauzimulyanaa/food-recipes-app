@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Menu</title>
+    <!-- bootstarp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./asset/css/add-menu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="px-lg-5 py-lg-2">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="my-nav collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav gap-5">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="add-menu.html" class="nav-item nav-link">Add Recipe</a>
+                <a href="profile.html" class="nav-item nav-link">Profile</a>
+              </div>
+              <div class="navbar-nav ms-auto">
+                <div class="profile">
+                  <img src="./asset/img/Ellipse 128.svg" alt="" class="rounded-circle" width="40" height="40" />
+                  <div class="desc ml-2">
+                    <p class="name">Ayudia</p>
+                    <a href="#" class="logout">Logout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section>
+        <div class="add-file">
+          <div class="add-photo">
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label">Add Photo</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file" />
+            </div>
+          </div>
+          <div class="title">
+            <div class="my-title mb-3">
+              <label for="formFileSm" class="my-form form-label">Title</label>
+              <input class="my-form form-control form-control-sm" id="formFileSm" type="file" />
+            </div>
+          </div>
+          <div class="ingredients">
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label">Ingredients</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file" />
+            </div>
+          </div>
+          <div class="category">
+            <div class="my-title mb-3">
+              <label for="formFileSm" class="my-form form-label">Category</label>
+              <input class="my-form form-control form-control-sm" id="formFileSm" type="file" />
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit">Post</button>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <h1>Eat, Cook, Repeat</h1>
+          <p>Share your best recipe by uploading here !</p>
+        </div>
+
+        <div class="footer-nav">
+          <nav class="nav-list">
+            <ul>
+              <li><a href="#">Product </a></li>
+              <li><a href="#">Company </a></li>
+              <li><a href="#">Learn more </a></li>
+              <li><a href="#">Get in touch</a></li>
+              <li class="copyright"><p>&copyArkademy</p></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
