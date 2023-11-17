@@ -46,21 +46,26 @@
             </div>
           </div>
           <div class="title">
-            <div class="my-title mb-3">
-              <label for="formFileSm" class="my-form form-label">Title</label>
-              <input class="my-form form-control form-control-sm" id="formFileSm" type="file" />
+            <div class="input-group">
+              <span class="input-group-text">Title</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
           </div>
           <div class="ingredients">
-            <div class="mb-3">
-              <label for="formFileSm" class="form-label">Ingredients</label>
-              <input class="form-control form-control-sm" id="formFileSm" type="file" />
+            <div class="input-group p-3">
+              <span class="input-group-text">Ingredients</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
           </div>
           <div class="category">
-            <div class="my-title mb-3">
-              <label for="formFileSm" class="my-form form-label">Category</label>
-              <input class="my-form form-control form-control-sm" id="formFileSm" type="file" />
+            <div class="input-group">
+              <label class="input-group-text" for="inputGroupSelect01">Category</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">Main Course</option>
+                <option value="2">Appetizer</option>
+                <option value="3">Dessert</option>
+              </select>
             </div>
           </div>
 
