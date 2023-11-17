@@ -77,7 +77,6 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 790px;
   height: 260px;
-  background-color: #f6f5f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +92,6 @@ h1 {
   margin-top: 40px;
   width: 790px;
   height: 60px;
-  background-color: #f6f5f4;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -120,7 +118,6 @@ h1 {
   margin-top: 20px;
   width: 790px;
   height: 200px;
-  background-color: #f6f5f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +136,6 @@ h1 {
   margin-top: 40px;
   width: 790px;
   height: 60px;
-  background-color: #f6f5f4;
   border-radius: 9px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
